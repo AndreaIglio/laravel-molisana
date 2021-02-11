@@ -1,0 +1,29 @@
+
+.pasta{
+
+background-image: url('/img/cover_products.jpg'); 
+
+h2 {
+
+    padding: 20px 0px;
+    font-style: italic;
+    font-family: 'Sansita Swashed',
+    cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.pasta_list {
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+
+    img {
+        width: 400px;
+    }
+
+}
+}

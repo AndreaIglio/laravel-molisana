@@ -25,7 +25,7 @@ body {
 
 .navbar {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .navbar ul {
@@ -42,7 +42,24 @@ body {
   text-decoration: none;
 }
 
-h1 {
-  color: blue;
+.pasta {
+  background-image: url("/img/cover_products.jpg");
+}
+
+.pasta h2 {
+  padding: 20px 0px;
+  font-style: italic;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.pasta .pasta_list {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pasta .pasta_list img {
+  width: 400px;
 }
 
