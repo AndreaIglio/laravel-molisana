@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  justify-content: center;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+h1 {
+  color: blue;
+}
+
