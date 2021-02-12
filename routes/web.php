@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 // HOME
 Route::get('/', function () {
-    return view('home');
+    $pasta_list = json_decode(config('dati.pasta'), true);
+    return view('home', compact('pasta_list'));
 })->name('home');
 //assegnato un name home alla route
 

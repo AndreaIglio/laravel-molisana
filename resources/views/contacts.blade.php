@@ -1,4 +1,1 @@
-@extends('layouts.app')
-@section('page_title')
-    Contacts
-@endsection
+Ciao Fabio ogni volta che devo tornare alla home perdo un anno di vita senza la navbar

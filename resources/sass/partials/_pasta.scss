@@ -37,6 +37,14 @@ h2 {
               left: 50%;
               top: 50%;
               transform: translate(-50%, -50%);
+              
+          }
+          h4 {
+              display: none;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
               text-align: center;
           }
 
@@ -48,7 +56,7 @@ h2 {
             background-color: rgba($color: #eeeeee, $alpha: 0.8);
             transition: 0.5s;
         }
-        .overlay_icon,h4{
+        .overlay_icon,h4 {
             display: inline;
             opacity: 1;
             

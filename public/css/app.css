@@ -23,6 +23,10 @@ body {
   flex-direction: column;
 }
 
+.active {
+  border-bottom: 1px solid black;
+}
+
 .navbar {
   width: 80%;
   margin: 20px auto;
@@ -74,6 +78,14 @@ body {
   top: 20%;
   transform: translate(-50%, -50%);
   width: 30px;
+}
+
+.pasta .pasta_list .overlay_pasta_card h4 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .pasta .pasta_list .overlay_pasta_card h4 {
