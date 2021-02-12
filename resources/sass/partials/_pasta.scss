@@ -17,13 +17,47 @@ h2 {
 
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    
-
 
     img {
         width: 400px;
     }
+    .overlay_pasta_card{
+        position: relative;
+          .overlay_icon {
+              display: none;
+              position: absolute;
+              left: 50%;
+              top: 20%;
+              transform: translate(-50%, -50%);
+              width: 30px;
+          }
+          h4 {
+              display: none;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+          }
 
+    }
+
+  
+    .pasta_card:hover {
+        .overlay_pasta_card{
+            background-color: rgba($color: #eeeeee, $alpha: 0.8);
+            transition: 0.5s;
+        }
+        .overlay_icon,h4{
+            display: inline;
+            opacity: 1;
+            
+        }
+        img {
+            opacity: 0;
+            transition: 0.5s;
+        }
+    }
+    
 }
 }

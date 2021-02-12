@@ -63,3 +63,41 @@ body {
   width: 400px;
 }
 
+.pasta .pasta_list .overlay_pasta_card {
+  position: relative;
+}
+
+.pasta .pasta_list .overlay_pasta_card .overlay_icon {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+}
+
+.pasta .pasta_list .overlay_pasta_card h4 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pasta .pasta_list .pasta_card:hover .overlay_pasta_card {
+  background-color: rgba(238, 238, 238, 0.8);
+  transition: 0.5s;
+}
+
+.pasta .pasta_list .pasta_card:hover .overlay_icon,
+.pasta .pasta_list .pasta_card:hover h4 {
+  display: inline;
+  opacity: 1;
+}
+
+.pasta .pasta_list .pasta_card:hover img {
+  opacity: 0;
+  transition: 0.5s;
+}
+

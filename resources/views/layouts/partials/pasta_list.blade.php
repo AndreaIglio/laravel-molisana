@@ -3,16 +3,17 @@
 <h2 style="text-align:center">LE LUNGHE</h2>
 <div class="pasta_list flex">
 
-    @foreach($pasta_list as $pasta)
+    @foreach($pasta_list as $key=> $pasta)
 
         @if($pasta['tipo'] == 'lunga') 
-        <div class="overlay_pasta_card">   
-            <div class="pasta_card">
+           
+        <div class="pasta_card">
+            <div class="overlay_pasta_card">
+                    <img class="overlay_icon" src="{{ asset('img/hover_icon.svg') }}" alt="">
+                    <h4>{{ $pasta['titolo'] }}</h4>
                     <img src="{{ $pasta['src'] }}" alt="">
-                    
-                        <img src= "{{ asset('/img/icon.svg') }}" alt="">
-                    </div>
             </div>
+        </div>
         @endif
 
     @endforeach
@@ -25,9 +26,14 @@
     @foreach($pasta_list as $pasta)
 
         @if($pasta['tipo'] == 'corta')
-            <div class="pasta_card">
-            <img src="{{ $pasta['src'] }}" alt="">
+               
+        <div class="pasta_card">
+            <div class="overlay_pasta_card">
+                    <img class="overlay_icon" src="{{ asset('img/hover_icon.svg') }}" alt="">
+                    <h4>{{ $pasta['titolo'] }}</h4>
+                    <img src="{{ $pasta['src'] }}" alt="">
             </div>
+        </div>
         @endif
 
     @endforeach
@@ -40,9 +46,14 @@
     @foreach($pasta_list as $pasta)
 
         @if($pasta['tipo'] == 'cortissima')
-            <div class="pasta_card">
-            <img src="{{ $pasta['src'] }}" alt="">
+               
+        <div class="pasta_card">
+            <div class="overlay_pasta_card">
+                    <img class="overlay_icon" src="{{ asset('img/hover_icon.svg') }}" alt="">
+                    <h4>{{ $pasta['titolo'] }}</h4>
+                    <img src="{{ $pasta['src'] }}" alt="">
             </div>
+        </div>
         @endif
 
     @endforeach

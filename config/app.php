@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'La Molisana'),
 
     /*
     |--------------------------------------------------------------------------
@@ -133,6 +133,11 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+
+
+
+  
+
 
     'providers' => [
 
